@@ -47,5 +47,5 @@ streamlit.dataframe(my_data_row)
 
 #Add a Text Entry Box and Send the Input fruit_load_list
 add_my_fruit = streamlit.text_input('What fruit would you like to add?')
-streamlit.write('Thanks for adding ', fruit_choice)
+streamlit.write('Thanks for adding ', add_my_fruit )
 
